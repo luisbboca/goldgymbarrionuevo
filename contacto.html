@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Contacto-Gold'sGym</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="logo">
+                <h1>Gold's<b>Gym</b></h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="entrenamiento.html">Entrenamientos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+   </header>
+
+   <form class="formulario" action="">
+    <fieldset class="formulario__field">
+        
+        <legend class="formulario__legend">
+            Formulario de contacto
+        </legend>   
+
+        <!-- Creamos los diferentes contenedores con la etiqueta div-->
+
+        <div class="formulario__field__div">
+            <label for="Nombre">
+                Completa tu nombre 
+            </label>         
+            <input type="text" name="nombre " placeholder="Tu nombre">
+        </div>
+
+        <div class="formulario__field__div">
+            <label for="mail">
+                Completa tu email
+            </label>         
+            <input type="email" name="mail " placeholder="Tu mail">
+        </div>
+
+        <div class="formulario__field__div">
+            <label for="pais">
+                Selecciona tu pais 
+            </label>         
+            <select name="pais" id="">
+                <option value=""></option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Peru">Peru</option>
+                <option value="Brasil">Brasil</option>
+
+            </select>
+        </div>
+
+        <div class="formulario__field__div">
+            <label for="comentario" >
+                Comentario 
+            </label>
+            <textarea name="comentario"  cols="30" rows="10" placeholder="Haz tu comentario" ></textarea>         
+            <!-- <input type="text" name="comentario " placeholder="Haz tu comentario" size="100"> -->
+        </div>
+
+        <!-- etiquetas con el type necesario para crear el boton de enviar y borrar la informacion de los input-->
+        <div class="formulario__field__div">
+            <input type="submit" value="enviarlo">
+            <input type="reset" value="borrar">
+        </div>
+                                
+    </fieldset>
+</form>
+
+
+
+<div class="contenedor-footer">
+    <footer>
+        <div class="logo-footer">
+            <img src="/img/Sin título.png" alt="">
+       </div>
+       <div class="redes-footer">
+           <a href="https://web.whatsapp.com/" target="_blank"><img class="logo-red" src="/img/5a4e2ef62da5ad73df7efe6e.png" alt=""></a>
+           <a href="https://www.facebook.com/goldsgym" target="_blank"><img class="logo-red" src="/img/faceee.png" alt=""></a>
+           <a href="https://www.instagram.com/goldsgym/" target="_blank"><img class="logo-red" src="/img/insta.png" alt=""></a>
+       </div>
+
+       <hr>
+       <h4>Luis Barrionuevo - Todos los derechos reservados</h4>
+    </footer>
+</div>
+
+    
+</body>
+</html>
